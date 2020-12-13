@@ -10,7 +10,7 @@ h2 {
 </style>
 </head>
 <body>
-<h2 align=center><br>Dampak Covid-19 Terhadap Perekonomian Indonesia<br><br></h2>
+<h2 align=center><br>Sistem Temu Kembali <nav></nav>Dokumen Dampak Covid-19 Terhadap Perekonomian Indonesia Dengan Algoritma Johnson<br><br></h2>
 <hr>
 <div align=center>
 | <a href="koneksi.php">Koneksi</a> |
