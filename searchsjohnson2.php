@@ -63,11 +63,11 @@ $result=mysqli_query($koneksi,$query);
 $numrows=mysqli_num_rows($result);
 $no=1;
 while($row = mysqli_fetch_array($result)){
-//echo "<tr><td><font color=black>" . " ID : $row[id] " . "</font></td></tr>"; 
+echo "<tr><td><font color=black>" . " ID : $row[id] " . "</font></td></tr>"; 
 echo "<tr><td><a href=$row[url] target=_blank><font size=5color=blue face=Arial>" . " $row[judul] " . "</a></font></td></tr>"; 
 echo "<tr><td><a href=$row[url] target=_blank>" . " $row[url] " . "</font></td></tr>"; 
 echo "<tr><td><font color=black>" . " $row[isi] " . "</font></td></tr>"; 
-//echo "<tr><td><font color=black>" . " johnson : $row[johnson] " . "</font></td></tr>"; 
+echo "<tr><td><font color=black>" . " Johnson : $row[johnson] " . "</font></td></tr>"; 
 echo "<tr><td><br></td></tr>";
 
 echo "</tr>";

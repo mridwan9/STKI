@@ -10,6 +10,7 @@ h2 {
 </style>
 </head>
 <body>
+
 <h2 align=center><br>Sistem Temu Kembali <nav></nav>Dokumen Dampak Covid-19 Terhadap Perekonomian Indonesia Dengan Algoritma Johnson<br><br></h2>
 <hr>
 <div align=center>
@@ -26,7 +27,7 @@ h2 {
 <a href="tf.php">Term Frequency</a> |
 <a href="idf.php">Invers Document Frequency</a> |
 <a href="tfidf.php">TF.IDF</a> |
-<a href="search1.php">Search</a> |
+<a href="search.php">Search</a> |
 <a href="search1.php">Search 2</a> |
 <a href="searchjaccard.php">Jaccard</a>|
 <a href="searchjaccard1.php">Jaccard 2</a>|
@@ -34,6 +35,8 @@ h2 {
 <a href="searchjohnson.php">Johnson</a> |
 <a href="searchjohnson1.php">Johnson 2</a> |
 <a href="searchjohnson2.php">Johnson 3</a> |
+
+
 </div>
 <hr/>
 </body>

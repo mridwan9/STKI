@@ -46,7 +46,13 @@ $result=mysqli_query($koneksi,$query);
 
 <table border=1 cellpadding=5 cellspacing=0>
 <tr>
-<td>Id</td>
+<td>Id</td><td>Kata</td>
+<td>A</td>
+<td>Jml Kata Kunci</td>
+<td>B</td>
+<td>Jml Kata Dokumen</td>
+<td>C</td>
+<td>Johnson</td>
 <td>Judul</td>
 <td>Isi</td>
 <td>Url</td>
@@ -64,7 +70,14 @@ $numrows=mysqli_num_rows($result);
 $no=1;
 while($row = mysqli_fetch_array($result)){
 echo "<tr>";
-echo "<td><font color=blue></font>" . " $row[id] " . "<br></td>"; 
+echo "<td><font color=blue></font>" . " $row[id] " . "<br></td>";
+echo "<td><font color=blue></font>" . " $row[kata] " . "<br></td>"; 
+echo "<td><font color=blue></font>" . " $row[A] " . "<br></td>"; 
+echo "<td><font color=blue></font>" . " $row[jmlkatakunci] " . "<br></td>"; 
+echo "<td><font color=blue></font>" . " $row[B] " . "<br></td>";
+echo "<td><font color=blue></font>" . " $row[jmlkatadok] " . "<br></td>"; 
+echo "<td><font color=blue></font>" . " $row[C] " . "<br></td>";  
+echo "<td><font color=blue></font>" . " $row[johnson] " . "<br></td>"; 
 echo "<td><font color=blue></font>" . " $row[judul] " . "<br></td>"; 
 echo "<td><font color=blue></font>" . " $row[isi] " . "<br></td>"; 
 echo "<td><font color=blue></font>" . " $row[url] " . "<br></td>"; 
